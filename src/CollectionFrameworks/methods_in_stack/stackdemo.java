@@ -26,6 +26,15 @@ public class stackdemo {
 
         int search = cookie.search(4);
         System.out.println(search);
-
+        //10 -->1
+        //9 -->2
+        //8 -->3
+        //7 -->4 it is the element 4 after searching
+        //6
+        //5
+        //4
+        //3
+        //2
+        //1
     }
 }
