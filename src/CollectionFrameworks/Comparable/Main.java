@@ -1,4 +1,4 @@
-package CollectionFrameworks.Comparable.no1;
+package CollectionFrameworks.Comparable;
 
 import java.util.*;
 

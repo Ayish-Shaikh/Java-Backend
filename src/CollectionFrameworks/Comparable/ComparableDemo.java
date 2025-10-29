@@ -1,6 +1,4 @@
-package CollectionFrameworks.Comparable.no1;
-
-import CollectionFrameworks.Comparable.Student;
+package CollectionFrameworks.Comparable;
 
 import java.util.ArrayList;
 import java.util.List;
