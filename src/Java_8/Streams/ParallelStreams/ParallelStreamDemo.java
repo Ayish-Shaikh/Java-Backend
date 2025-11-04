@@ -1,9 +1,9 @@
-package Java_8.Streams;
+package Java_8.Streams.ParallelStreams;
 
 import java.util.List;
 import java.util.stream.Stream;
 
-public class ParallelStream {
+public class ParallelStreamDemo {
     public static void main(String[] args) {
 
         // A type of stream that enables parallel processing of elements
@@ -12,12 +12,12 @@ public class ParallelStream {
         // workload is distributed across multiple threads
         long startTime = System.currentTimeMillis();
         List<Integer> list = Stream.iterate(1 , x -> x + 1).limit(20000).toList();
-        List<Long> factorialsList = list.stream().map(ParallelStream::factorial).toList();
+        List<Long> factorialsList = list.stream().map(ParallelStreamDemo::factorial).toList();
         long endTime = System.currentTimeMillis();
         System.out.println("Time taken with sequential stream: " + (endTime-startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        factorialsList = list.parallelStream().map(ParallelStream::factorial).toList();
+        factorialsList = list.parallelStream().map(ParallelStreamDemo::factorial).toList();
         endTime = System.currentTimeMillis();
         System.out.println("Time taken with parallel stream: " + (endTime-startTime) + "ms");
 
