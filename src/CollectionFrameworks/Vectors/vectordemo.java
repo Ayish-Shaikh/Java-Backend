@@ -1,4 +1,4 @@
-package CollectionFrameworks.methods_in_Vectors;
+package CollectionFrameworks.Vectors;
 
 import java.util.Vector;
 

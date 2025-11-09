@@ -1,4 +1,4 @@
-package CollectionFrameworks.methods_in_arraylist;
+package CollectionFrameworks.Arraylist;
 
 import java.util.ArrayList;
 public class size {

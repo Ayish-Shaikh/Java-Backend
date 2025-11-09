@@ -1,7 +1,6 @@
-package CollectionFrameworks.methods_in_arraylist;
+package CollectionFrameworks.Arraylist;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
 public class sort {
     //The sort() method sorts items in the list. A Comparator can be used to compare pairs of elements. The comparator can be defined by a lambda expression which is compatible with the compare() method of Java's Comparator interface

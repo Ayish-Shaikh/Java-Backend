@@ -1,4 +1,4 @@
-package CollectionFrameworks.methods_in_stack;
+package CollectionFrameworks.Stack;
 
 import java.util.Stack;
 public class stackdemo {
