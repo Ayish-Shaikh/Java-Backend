@@ -18,6 +18,9 @@ public class BlockingQueueExample {
 
         BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
         //A bounded, blocking queue backed by an array
+        //low memory overhead
+        //uses a single lock for both enqueue and dequeue operations
+        //more threads --> problem
 
         Thread producer = new Thread(new Producer(queue));
         Thread consumer = new Thread(new Consumer(queue));
